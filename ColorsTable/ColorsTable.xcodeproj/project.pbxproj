@@ -14,6 +14,8 @@
 		6DF4E00D1F99246600021CD5 /* ColorsTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4E00C1F99246600021CD5 /* ColorsTableTests.swift */; };
 		6DF4E0181F99246600021CD5 /* ColorsTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4E0171F99246600021CD5 /* ColorsTableUITests.swift */; };
 		6DF4E0261F99253200021CD5 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4E0251F99253200021CD5 /* ColorsViewController.swift */; };
+		6DF4E02A1FA3AAF500021CD5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4E0291FA3AAF500021CD5 /* Color.swift */; };
+		6DF4E02C1FA3B37400021CD5 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4E02B1FA3B37400021CD5 /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6DF4E0171F99246600021CD5 /* ColorsTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableUITests.swift; sourceTree = "<group>"; };
 		6DF4E0191F99246600021CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF4E0251F99253200021CD5 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		6DF4E0291FA3AAF500021CD5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		6DF4E02B1FA3B37400021CD5 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				6DF4E0001F99246500021CD5 /* LaunchScreen.storyboard */,
 				6DF4E0031F99246500021CD5 /* Info.plist */,
 				6DF4E0251F99253200021CD5 /* ColorsViewController.swift */,
+				6DF4E0291FA3AAF500021CD5 /* Color.swift */,
+				6DF4E02B1FA3B37400021CD5 /* ColorDetailViewController.swift */,
 			);
 			path = ColorsTable;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF4E02A1FA3AAF500021CD5 /* Color.swift in Sources */,
 				6DF4E0261F99253200021CD5 /* ColorsViewController.swift in Sources */,
 				6DF4DFF81F99246500021CD5 /* AppDelegate.swift in Sources */,
+				6DF4E02C1FA3B37400021CD5 /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
